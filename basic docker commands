@@ -1,0 +1,26 @@
+1. docker –-version
+
+docker pull <image name>
+
+docker run -it -d <image name>
+
+docker ps
+
+docker ps -a
+
+docker exec -it <container id> bash
+
+docker stop <container id>
+
+docker kill <container id>
+
+docker commit <conatainer id> <username/imagename>
+
+docker images
+
+docker rm <container id>
+
+docker rmi <image-id>
+
+
+
